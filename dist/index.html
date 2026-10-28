@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#7254d2">
+  <meta name="description" content="Make room for your next lightbulb moment. Explore maths for Grades 6–9 with bite-sized lessons, five-question exercises, and helpful feedback.">
+  <title>Maths Club — Small steps. Big discoveries.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="curriculum.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#/" aria-label="Maths Club home"><span class="brand-symbol">m<span>✦</span></span><span>maths<span class="brand-light">club</span><span class="brand-dot">.</span></span></a>
+      <nav aria-label="Main navigation">
+        <a href="#/" class="nav-home">Home</a>
+        <div class="grade-menu"><button id="grade-toggle" aria-expanded="false" aria-controls="grade-dropdown">Grade <svg viewBox="0 0 20 20" width="15" height="15" aria-hidden="true"><path d="m5 7 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></button>
+          <div id="grade-dropdown" hidden><a href="#/grades" class="all-grades">Explore all grades <span>↗</span></a><a href="#/grade/6"><i class="menu-dot grade-6"></i>Grade 6</a><a href="#/grade/7"><i class="menu-dot grade-7"></i>Grade 7</a><a href="#/grade/8"><i class="menu-dot grade-8"></i>Grade 8</a><a href="#/grade/9"><i class="menu-dot grade-9"></i>Grade 9</a></div>
+        </div>
+      </nav>
+      <span class="header-note"><span class="tiny-spark">✧</span> A little practice. A lot of possibility.</span>
+    </div>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer><div class="footer-inner"><a class="brand footer-brand" href="#/"><span>maths<span class="brand-light">club</span><span class="brand-dot">.</span></span></a><p>Made for curious minds. One discovery at a time.</p><span>Grades 6–9 <span class="footer-star">✦</span> Keep growing.</span></div><div class="storage-note" id="storage-note">Your progress stays in this browser. No account needed.</div></footer>
+</body>
+</html>
